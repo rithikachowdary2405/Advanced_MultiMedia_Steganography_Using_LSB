@@ -324,9 +324,9 @@ root.state("zoomed")
 root.title("StegoVault")
 
 sw, sh = root.winfo_screenwidth(), root.winfo_screenheight()
-bg_start = ImageTk.PhotoImage(Image.open(r"C:\Users\drcho\Downloads\robo_open.jpg").resize((sw, sh)))
-bg_main = ImageTk.PhotoImage(Image.open(r"C:\Users\drcho\Downloads\boyhacker.jpeg").resize((sw, sh)))
-bg_feature = ImageTk.PhotoImage(Image.open(r"C:\Users\drcho\Downloads\hackroom.jpeg").resize((sw, sh)))
+bg_start = ImageTk.PhotoImage(Image.open("images/robo_open.jpg").resize((sw, sh)))
+bg_main = ImageTk.PhotoImage(Image.open("images/boyhacker.jpeg").resize((sw, sh)))
+bg_feature = ImageTk.PhotoImage(Image.open("images/hackroom.jpeg").resize((sw, sh)))
 
 cyber_font = ("Consolas", 18, "bold")
 heading_font = ("Consolas", 36, "bold")
