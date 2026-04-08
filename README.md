@@ -129,6 +129,4 @@ python main.py
 
 ---
 
-## Author
 
-Rithika Chowdary
